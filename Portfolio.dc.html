@@ -20,6 +20,31 @@
   @keyframes floatGlow{0%,100%{transform:translate(0,0)}50%{transform:translate(4%,5%)}}
   @keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
   @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+  /* Responsive overrides — inline styles are desktop-first with no media
+     queries, so these use !important to win on small screens. Selectors hang
+     off the section ids (#top, #stack, #work, #about, #contact, nav). */
+  @media (max-width:900px){
+    #top > header{grid-template-columns:1fr !important;gap:36px !important;padding:80px 0 60px !important}
+    #top > header h1{font-size:clamp(40px,9vw,60px) !important}
+    #contact > div:first-child > div:nth-child(2){grid-template-columns:1fr !important;gap:36px !important}
+  }
+  @media (max-width:640px){
+    nav > div{padding:13px 18px !important;gap:12px !important}
+    nav > div > div{gap:14px !important}
+    nav > div > div > a:not([href^="mailto"]){display:none !important}
+    #top{padding:0 18px !important}
+    #top > header{padding:56px 0 44px !important;gap:30px !important}
+    #top > header h1{font-size:clamp(34px,11vw,46px) !important}
+    #top > header > div > div:last-child{gap:22px !important;flex-wrap:wrap !important}
+    #stack,#work,#experience,#about{padding-top:26px !important;padding-bottom:48px !important}
+    #stack > div:last-child > div{display:flex !important;flex-direction:column !important;align-items:flex-start !important;gap:10px !important;padding:20px 14px !important}
+    #work > div:last-child{grid-template-columns:1fr !important}
+    #about > div:last-child{padding:28px 20px !important}
+    #about > div:last-child > p{font-size:16px !important}
+    #about > div:last-child > div:last-child > div{display:flex !important;flex-direction:column !important;align-items:flex-start !important;gap:8px !important;padding:20px 14px !important}
+    #contact > div:first-child{padding:56px 20px 0 !important}
+    #contact a[href^="mailto:"]{font-size:clamp(22px,6.8vw,32px) !important;gap:12px !important;word-break:break-word !important}
+  }
 </style>
 </helmet>
 
