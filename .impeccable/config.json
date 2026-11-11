@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "site/index.html"
+        ],
+        "createdAt": "2026-11-11T16:06:34.630Z",
+        "reason": "agent decided: measured in browser at 1440 and 390 px, every hairline divider row has 14-44px padding between the rule and its text; rows are open dividers, not boxed containers, so text aligns to the page edge by design"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "site/pt/index.html"
+        ],
+        "createdAt": "2026-11-11T16:26:14.574Z",
+        "reason": "agent decided: same markup and stylesheet as site/index.html, where every hairline divider row was measured in browser at 14-44px padding; the new .langs separator has 10-20px left padding; open dividers, not boxed containers"
+      }
+    ]
+  }
+}

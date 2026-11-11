@@ -1,0 +1,509 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-11T16:15:31+00:00",
+  "title": "Design System: Klinger Matheus Portfolio",
+  "extensions": {
+    "colorMeta": {
+      "bg": {
+        "role": "neutral",
+        "displayName": "Page",
+        "tonalRamp": [
+          "oklch(15% 0.003 286)",
+          "oklch(27% 0.005 286)",
+          "oklch(38% 0.006 286)",
+          "oklch(50% 0.006 286)",
+          "oklch(62% 0.006 286)",
+          "oklch(74% 0.006 286)",
+          "oklch(85% 0.005 286)",
+          "oklch(95% 0.003 286)"
+        ]
+      },
+      "bg-dark": {
+        "role": "neutral",
+        "displayName": "Page (dark)",
+        "tonalRamp": [
+          "oklch(15% 0.003 286)",
+          "oklch(27% 0.005 286)",
+          "oklch(38% 0.006 286)",
+          "oklch(50% 0.006 286)",
+          "oklch(62% 0.006 286)",
+          "oklch(74% 0.006 286)",
+          "oklch(85% 0.005 286)",
+          "oklch(95% 0.003 286)"
+        ]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Panel Grey",
+        "tonalRamp": [
+          "oklch(15% 0.003 286)",
+          "oklch(27% 0.005 286)",
+          "oklch(38% 0.006 286)",
+          "oklch(50% 0.006 286)",
+          "oklch(62% 0.006 286)",
+          "oklch(74% 0.006 286)",
+          "oklch(85% 0.005 286)",
+          "oklch(95% 0.003 286)"
+        ]
+      },
+      "panel-dark": {
+        "role": "neutral",
+        "displayName": "Panel Grey (dark)",
+        "tonalRamp": [
+          "oklch(15% 0.003 286)",
+          "oklch(27% 0.005 286)",
+          "oklch(38% 0.006 286)",
+          "oklch(50% 0.006 286)",
+          "oklch(62% 0.006 286)",
+          "oklch(74% 0.006 286)",
+          "oklch(85% 0.005 286)",
+          "oklch(95% 0.003 286)"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15% 0.003 286)",
+          "oklch(27% 0.005 286)",
+          "oklch(38% 0.006 286)",
+          "oklch(50% 0.006 286)",
+          "oklch(62% 0.006 286)",
+          "oklch(74% 0.006 286)",
+          "oklch(85% 0.005 286)",
+          "oklch(95% 0.003 286)"
+        ]
+      },
+      "text-dark": {
+        "role": "neutral",
+        "displayName": "Ink (dark)",
+        "tonalRamp": [
+          "oklch(15% 0.003 286)",
+          "oklch(27% 0.005 286)",
+          "oklch(38% 0.006 286)",
+          "oklch(50% 0.006 286)",
+          "oklch(62% 0.006 286)",
+          "oklch(74% 0.006 286)",
+          "oklch(85% 0.005 286)",
+          "oklch(95% 0.003 286)"
+        ]
+      },
+      "text-2": {
+        "role": "neutral",
+        "displayName": "Secondary Ink",
+        "tonalRamp": [
+          "oklch(15% 0.003 286)",
+          "oklch(27% 0.005 286)",
+          "oklch(38% 0.006 286)",
+          "oklch(50% 0.006 286)",
+          "oklch(62% 0.006 286)",
+          "oklch(74% 0.006 286)",
+          "oklch(85% 0.005 286)",
+          "oklch(95% 0.003 286)"
+        ]
+      },
+      "text-2-dark": {
+        "role": "neutral",
+        "displayName": "Secondary Ink (dark)",
+        "tonalRamp": [
+          "oklch(15% 0.003 286)",
+          "oklch(27% 0.005 286)",
+          "oklch(38% 0.006 286)",
+          "oklch(50% 0.006 286)",
+          "oklch(62% 0.006 286)",
+          "oklch(74% 0.006 286)",
+          "oklch(85% 0.005 286)",
+          "oklch(95% 0.003 286)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "tonalRamp": [
+          "oklch(15% 0.003 286)",
+          "oklch(27% 0.005 286)",
+          "oklch(38% 0.006 286)",
+          "oklch(50% 0.006 286)",
+          "oklch(62% 0.006 286)",
+          "oklch(74% 0.006 286)",
+          "oklch(85% 0.005 286)",
+          "oklch(95% 0.003 286)"
+        ]
+      },
+      "line-dark": {
+        "role": "neutral",
+        "displayName": "Hairline (dark)",
+        "tonalRamp": [
+          "oklch(15% 0.003 286)",
+          "oklch(27% 0.005 286)",
+          "oklch(38% 0.006 286)",
+          "oklch(50% 0.006 286)",
+          "oklch(62% 0.006 286)",
+          "oklch(74% 0.006 286)",
+          "oklch(85% 0.005 286)",
+          "oklch(95% 0.003 286)"
+        ]
+      },
+      "on-action": {
+        "role": "neutral",
+        "displayName": "On Action",
+        "tonalRamp": [
+          "oklch(15% 0.003 286)",
+          "oklch(27% 0.005 286)",
+          "oklch(38% 0.006 286)",
+          "oklch(50% 0.006 286)",
+          "oklch(62% 0.006 286)",
+          "oklch(74% 0.006 286)",
+          "oklch(85% 0.005 286)",
+          "oklch(95% 0.003 286)"
+        ]
+      },
+      "bar": {
+        "role": "neutral",
+        "displayName": "Bar Glass",
+        "tonalRamp": [
+          "oklch(15% 0.003 286)",
+          "oklch(27% 0.005 286)",
+          "oklch(38% 0.006 286)",
+          "oklch(50% 0.006 286)",
+          "oklch(62% 0.006 286)",
+          "oklch(74% 0.006 286)",
+          "oklch(85% 0.005 286)",
+          "oklch(95% 0.003 286)"
+        ]
+      },
+      "bar-dark": {
+        "role": "neutral",
+        "displayName": "Bar Glass (dark)",
+        "tonalRamp": [
+          "oklch(15% 0.003 286)",
+          "oklch(27% 0.005 286)",
+          "oklch(38% 0.006 286)",
+          "oklch(50% 0.006 286)",
+          "oklch(62% 0.006 286)",
+          "oklch(74% 0.006 286)",
+          "oklch(85% 0.005 286)",
+          "oklch(95% 0.003 286)"
+        ]
+      },
+      "action": {
+        "role": "primary",
+        "displayName": "Action Blue",
+        "tonalRamp": [
+          "oklch(15% 0.086 255)",
+          "oklch(27% 0.143 255)",
+          "oklch(38% 0.190 255)",
+          "oklch(50% 0.190 255)",
+          "oklch(62% 0.190 255)",
+          "oklch(74% 0.190 255)",
+          "oklch(85% 0.143 255)",
+          "oklch(95% 0.086 255)"
+        ]
+      },
+      "action-hover": {
+        "role": "primary",
+        "displayName": "Action Blue, hover",
+        "tonalRamp": [
+          "oklch(15% 0.086 255)",
+          "oklch(27% 0.143 255)",
+          "oklch(38% 0.190 255)",
+          "oklch(50% 0.190 255)",
+          "oklch(62% 0.190 255)",
+          "oklch(74% 0.190 255)",
+          "oklch(85% 0.143 255)",
+          "oklch(95% 0.086 255)"
+        ]
+      },
+      "link": {
+        "role": "primary",
+        "displayName": "Link Blue",
+        "tonalRamp": [
+          "oklch(15% 0.086 255)",
+          "oklch(27% 0.143 255)",
+          "oklch(38% 0.190 255)",
+          "oklch(50% 0.190 255)",
+          "oklch(62% 0.190 255)",
+          "oklch(74% 0.190 255)",
+          "oklch(85% 0.143 255)",
+          "oklch(95% 0.086 255)"
+        ]
+      },
+      "link-dark": {
+        "role": "primary",
+        "displayName": "Link Blue (dark)",
+        "tonalRamp": [
+          "oklch(15% 0.086 255)",
+          "oklch(27% 0.143 255)",
+          "oklch(38% 0.190 255)",
+          "oklch(50% 0.190 255)",
+          "oklch(62% 0.190 255)",
+          "oklch(74% 0.190 255)",
+          "oklch(85% 0.143 255)",
+          "oklch(95% 0.086 255)"
+        ]
+      },
+      "select": {
+        "role": "primary",
+        "displayName": "Selection",
+        "tonalRamp": [
+          "oklch(15% 0.086 255)",
+          "oklch(27% 0.143 255)",
+          "oklch(38% 0.190 255)",
+          "oklch(50% 0.190 255)",
+          "oklch(62% 0.190 255)",
+          "oklch(74% 0.190 255)",
+          "oklch(85% 0.143 255)",
+          "oklch(95% 0.086 255)"
+        ]
+      },
+      "select-dark": {
+        "role": "primary",
+        "displayName": "Selection (dark)",
+        "tonalRamp": [
+          "oklch(15% 0.086 255)",
+          "oklch(27% 0.143 255)",
+          "oklch(38% 0.190 255)",
+          "oklch(50% 0.190 255)",
+          "oklch(62% 0.190 255)",
+          "oklch(74% 0.190 255)",
+          "oklch(85% 0.143 255)",
+          "oklch(95% 0.086 255)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero name only; one per page."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Project names in panels; contact email at the same top size."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "Measured values, tabular figures."
+      },
+      "subhead": {
+        "displayName": "Subhead",
+        "purpose": "Role line under the name, in Secondary Ink."
+      },
+      "title-sm": {
+        "displayName": "Title Small",
+        "purpose": "Row and principle headings."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Hero summary and contact lede."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Default reading text."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Captions, measurement names, technology lists, in Secondary Ink."
+      },
+      "nav": {
+        "displayName": "Nav",
+        "purpose": "Bar links and footer."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The one easing curve, for the pill hover and the hero load sequence."
+      },
+      {
+        "name": "hover",
+        "value": "0.2s",
+        "purpose": "Pill background-colour transition."
+      },
+      {
+        "name": "settle",
+        "value": "0.9s, from opacity 0, translateY(14px), blur(6px)",
+        "purpose": "Hero elements on first load."
+      },
+      {
+        "name": "unveil",
+        "value": "1.2s after 0.3s, from opacity 0, scale(0.975), clip-path inset(6% round 28px)",
+        "purpose": "Hero portrait on first load."
+      },
+      {
+        "name": "stagger",
+        "value": "0.07s steps (0.07, 0.14, 0.21, 0.26, 0.3, 0.42s)",
+        "purpose": "Delay between hero elements."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: no-preference gates all animation and smooth scrolling",
+        "purpose": "No motion at all when the visitor asks for less."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "figures-2col",
+        "value": "520px"
+      },
+      {
+        "name": "bar-trim",
+        "value": "560px"
+      },
+      {
+        "name": "hero-left / ways-1col / portrait-4:5",
+        "value": "640px"
+      },
+      {
+        "name": "rows-stack",
+        "value": "720px"
+      },
+      {
+        "name": "panel-stack",
+        "value": "820px"
+      },
+      {
+        "name": "figures-3+2 / portrait-2:1 above",
+        "value": "860px"
+      }
+    ],
+    "effects": [
+      {
+        "name": "bar-glass",
+        "value": "saturate(180%) blur(20px)",
+        "purpose": "Backdrop filter of the sticky bar only."
+      },
+      {
+        "name": "focus-ring",
+        "value": "2px solid var(--action); outline-offset 3px; border-radius 6px",
+        "purpose": "Global :focus-visible treatment."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Pill Button",
+      "kind": "button",
+      "refersTo": "button-pill",
+      "description": "The one filled action per view.",
+      "html": "<a class=\"ds-pill\" href=\"#\">Email me</a>",
+      "css": ".ds-pill { display: inline-flex; align-items: center; min-height: 44px; padding: 0 22px; border-radius: 999px; background: var(--action, #0071e3); color: var(--on-action, #fff); font-family: var(--font, system-ui, sans-serif); font-size: 1.0625rem; letter-spacing: -0.01em; text-decoration: none; transition: background-color 0.2s var(--ease, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-pill:hover { background: var(--action-hover, #0062c3); } .ds-pill:focus-visible { outline: 2px solid var(--action, #0071e3); outline-offset: 3px; }"
+    },
+    {
+      "name": "Outbound Link",
+      "kind": "custom",
+      "refersTo": "link-inline",
+      "description": "Text link for secondary actions; external links end with the outbound arrow.",
+      "html": "<a class=\"ds-link\" href=\"#\">LinkedIn<svg class=\"ds-link-icon\" viewBox=\"0 0 10 10\" aria-hidden=\"true\"><path d=\"M2 8 8 2M3.2 2H8v4.8\"/></svg></a>",
+      "css": ".ds-link { display: inline-flex; align-items: center; min-height: 44px; color: var(--link, #0066cc); font-family: var(--font, system-ui, sans-serif); font-size: 1.0625rem; letter-spacing: -0.01em; text-decoration: none; text-underline-offset: 0.18em; text-decoration-thickness: 1px; } .ds-link:hover { text-decoration: underline; } .ds-link:focus-visible { outline: 2px solid var(--action, #0071e3); outline-offset: 3px; border-radius: 6px; } .ds-link-icon { width: 0.62em; height: 0.62em; margin-left: 0.3em; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }"
+    },
+    {
+      "name": "Frosted Bar",
+      "kind": "nav",
+      "refersTo": "bar",
+      "description": "Sticky 48px navigation bar; the only glass surface.",
+      "html": "<nav class=\"ds-bar\"><a class=\"ds-bar-name\" href=\"#\">Klinger Matheus</a><div class=\"ds-bar-links\"><a href=\"#\">Work</a><a href=\"#\">Experience</a><a href=\"#\">Contact</a></div></nav>",
+      "css": ".ds-bar { display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 48px; padding: 0 20px; background: var(--bar, rgba(255,255,255,0.72)); -webkit-backdrop-filter: saturate(180%) blur(20px); backdrop-filter: saturate(180%) blur(20px); border-bottom: 1px solid color-mix(in srgb, var(--line, #d2d2d7) 60%, transparent); font-family: var(--font, system-ui, sans-serif); letter-spacing: -0.01em; } .ds-bar a { color: var(--text, #1d1d1f); text-decoration: none; } .ds-bar-name { font-weight: 600; font-size: 1rem; white-space: nowrap; } .ds-bar-links { display: flex; align-items: center; gap: 24px; font-size: 0.8125rem; } .ds-bar-links a { padding-block: 14px; opacity: 0.82; } .ds-bar-links a:hover { opacity: 1; } .ds-bar a:focus-visible { outline: 2px solid var(--action, #0071e3); outline-offset: 3px; border-radius: 6px; }"
+    },
+    {
+      "name": "Project Panel",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "Grey rounded container for featured work; no border, no shadow.",
+      "html": "<article class=\"ds-panel\"><h3 class=\"ds-panel-title\">FluxPrompt</h3><p class=\"ds-panel-kind\">AI agent builder</p><p class=\"ds-panel-about\">Visual builder where users create, manage and monitor AI agent pipelines.</p><p class=\"ds-panel-tech\">React, TypeScript, Zustand</p></article>",
+      "css": ".ds-panel { padding: clamp(28px, 5vw, 56px); border-radius: var(--radius, 28px); background: var(--panel, #f5f5f7); color: var(--text, #1d1d1f); font-family: var(--font, system-ui, sans-serif); font-size: 1.0625rem; line-height: 1.47; letter-spacing: -0.01em; } .ds-panel p, .ds-panel h3 { margin: 0; } .ds-panel-title { font-size: clamp(1.75rem, 4vw, 2.5rem); font-weight: 600; line-height: 1.1; letter-spacing: -0.03em; } .ds-panel-kind { margin-top: 6px !important; color: var(--text-2, #6e6e73); } .ds-panel-about { margin-top: 20px !important; max-width: 34rem; } .ds-panel-tech { margin-top: 16px !important; color: var(--text-2, #6e6e73); font-size: 0.875rem; }"
+    },
+    {
+      "name": "Before-and-after Rows",
+      "kind": "custom",
+      "refersTo": "measure-row",
+      "description": "Signature: a measured change as old value, arrow, new value, between hairlines.",
+      "html": "<dl class=\"ds-measures\"><div><dt>Agent load time, 150 nodes</dt><dd><span class=\"ds-was\">11.4 s</span><svg class=\"ds-to\" viewBox=\"0 0 12 10\" role=\"img\" aria-label=\"to\"><path d=\"M1 5h10M7.5 1.5 11 5 7.5 8.5\"/></svg>0.13 s</dd></div><div><dt>Canvas frame rate</dt><dd><span class=\"ds-was\">4–10 FPS</span><svg class=\"ds-to\" viewBox=\"0 0 12 10\" role=\"img\" aria-label=\"to\"><path d=\"M1 5h10M7.5 1.5 11 5 7.5 8.5\"/></svg>60 FPS</dd></div></dl>",
+      "css": ".ds-measures { margin: 0; color: var(--text, #1d1d1f); font-family: var(--font, system-ui, sans-serif); } .ds-measures div { padding-block: 14px; border-top: 1px solid var(--line, #d2d2d7); } .ds-measures div:last-child { border-bottom: 1px solid var(--line, #d2d2d7); } .ds-measures dt { color: var(--text-2, #6e6e73); font-size: 0.875rem; letter-spacing: -0.01em; } .ds-measures dd { margin: 4px 0 0; font-size: clamp(1.5rem, 3vw, 2.25rem); line-height: 1.15; font-weight: 600; letter-spacing: -0.03em; font-variant-numeric: tabular-nums; } .ds-was { color: var(--text-2, #6e6e73); font-weight: 400; } .ds-to { width: 0.8em; height: 0.8em; margin-inline: 0.35em; vertical-align: -0.02em; fill: none; stroke: var(--text-2, #6e6e73); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }"
+    },
+    {
+      "name": "Figures Strip",
+      "kind": "custom",
+      "description": "Headline numbers, each under a hairline with a caption.",
+      "html": "<dl class=\"ds-figures\"><div><dt>60 FPS</dt><dd>up from 4–10 on a 150-node canvas</dd></div><div><dt>98.9%</dt><dd>faster agent load time</dd></div><div><dt>92%</dt><dd>less JavaScript memory</dd></div></dl>",
+      "css": ".ds-figures { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 clamp(16px, 2.4vw, 28px); margin: 0; color: var(--text, #1d1d1f); font-family: var(--font, system-ui, sans-serif); } .ds-figures div { padding-top: 18px; border-top: 1px solid var(--line, #d2d2d7); } .ds-figures dt { font-size: clamp(1.75rem, 3.3vw, 2.5rem); font-weight: 600; line-height: 1.1; letter-spacing: -0.03em; font-variant-numeric: tabular-nums; white-space: nowrap; } .ds-figures dd { margin: 8px 0 0; color: var(--text-2, #6e6e73); font-size: 0.875rem; line-height: 1.4; letter-spacing: -0.01em; }"
+    },
+    {
+      "name": "Definition Table",
+      "kind": "custom",
+      "refersTo": "table-row",
+      "description": "Term and description rows between hairlines.",
+      "html": "<dl class=\"ds-table\"><div><dt>Frontend</dt><dd>JavaScript (ES6+), TypeScript, React, Zustand, xyflow</dd></div><div><dt>Backend &amp; Data <small>junior level</small></dt><dd>Node.js, NestJS, PostgreSQL</dd></div></dl>",
+      "css": ".ds-table { margin: 0; color: var(--text, #1d1d1f); font-family: var(--font, system-ui, sans-serif); font-size: 1.0625rem; line-height: 1.47; letter-spacing: -0.01em; } .ds-table div { display: grid; grid-template-columns: minmax(0, 15rem) minmax(0, 1fr); gap: 4px clamp(24px, 5vw, 64px); padding-block: 18px; border-top: 1px solid var(--line, #d2d2d7); } .ds-table div:last-child { border-bottom: 1px solid var(--line, #d2d2d7); } .ds-table dt { font-weight: 600; } .ds-table dt small { display: block; color: var(--text-2, #6e6e73); font-size: 0.875rem; font-weight: 400; } .ds-table dd { margin: 0; max-width: 41rem; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Measured Page",
+    "overview": "The owner pinned this system to Apple's design language: a white or true-black ground, one grey panel tone, near-black text, one grey for secondary text, and one blue reserved for things you can press. The system sans is set large and tight for statements and at a comfortable reading size for everything else. Nothing decorates. Structure comes from generous vertical rhythm, hairline rules, and rounded grey panels.\n\nThe page is static HTML and CSS with no JavaScript and no web font, which is itself part of the design: it renders instantly, in both light and dark by system preference, and holds WCAG AA contrast in each. Numbers are the proof material, so they get display-weight type with tabular figures, and a measured change is always shown as a quiet \"was\" value, an arrow, and a strong \"now\" value.\n\nDensity is low at the top (a centered name, role, summary, and a full-width portrait) and tighter below, where hairline-separated rows carry lists of facts. Motion is limited to a single settle on first load.",
+    "keyCharacteristics": [
+      "Two grounds only: page and one panel tone, swapped as a pair between light and dark.",
+      "One blue, used only for links, the single filled pill, focus rings and selection.",
+      "Two weights (400 and 600) of one system sans; tracking tightens as size grows.",
+      "Hairline rules for rows; no shadows; frosted glass only on the sticky bar.",
+      "Large rounded panels (28px) and fully round pills; nothing in between.",
+      "Measurements as before-and-after pairs with tabular figures.",
+      "No JavaScript; one load animation; reduced motion respected."
+    ],
+    "rules": [
+      {
+        "name": "The One Blue Rule",
+        "body": "Blue means \"you can act on this\". It appears on links, the filled pill, focus rings and text selection, and nowhere else. No blue headings, icons, rules or backgrounds.",
+        "section": "colors"
+      },
+      {
+        "name": "The Paired Ground Rule",
+        "body": "There are two surface tones per theme, page and panel. A third tone, a tinted section, or a panel inside a panel is a system change, not an extension.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Weights Rule",
+        "body": "Regular (400) and semibold (600). Headings, figures and row terms are 600; everything else is 400. No light, medium or bold.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tightening Rule",
+        "body": "Tracking follows size: -0.01em at body, -0.02em from about 1.3 to 2rem, -0.03em from 2 to 3.5rem, -0.035em at display. Small text is never tracked tighter than body, and nothing is tracked wide or set in capitals.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Rule",
+        "body": "Any number meant to be compared (measurements, dates) uses tabular figures.",
+        "section": "typography"
+      },
+      {
+        "name": "The One Glass Rule",
+        "body": "Backdrop blur belongs to the sticky bar and nothing else. Panels, buttons and overlays stay opaque.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep blue for actions: links, the one filled pill, focus rings, selection.",
+      "Do swap colours through the theme tokens so every surface works in light and dark, and check Secondary Ink on Panel Grey (4.66:1) whenever either value changes.",
+      "Do set comparable numbers in semibold with tabular figures, and show a change as old value, arrow, new value.",
+      "Do separate list rows with 1px hairlines on the page ground, and reserve Panel Grey panels (28px radius) for featured content.",
+      "Do tighten tracking as type grows, following the Tightening Rule, and cap reading widths in rem.",
+      "Do hold 44px minimum height on every standalone link and button, and keep the 2px blue focus ring visible.",
+      "Do draw new icons as em-sized inline SVG strokes with round caps, matching the two that exist.",
+      "Do wrap any motion in `prefers-reduced-motion: no-preference` and use the one ease."
+    ],
+    "donts": [
+      "Don't introduce a second accent hue, or use blue for decoration.",
+      "Don't add a third surface tone or nest a panel inside a panel.",
+      "Don't add a third font weight, uppercase text, or wide tracking.",
+      "Don't add a radius between 28px and the full pill for containers or controls.",
+      "Don't put backdrop blur on anything but the sticky bar.",
+      "Don't animate on scroll; the page has one load sequence and then stays still.",
+      "Don't make any content or layout depend on JavaScript."
+    ]
+  }
+}
