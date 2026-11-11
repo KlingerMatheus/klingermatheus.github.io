@@ -1,41 +1,25 @@
 # Klinger Matheus — Portfolio
 
-Personal portfolio of **Klinger Matheus Vieira da Silva**, Frontend Engineer (React & TypeScript).
-A minimalist, dark-blue, single-page site with subtle motion and a focus on clean UX.
+Personal portfolio of **Klinger Matheus Vieira da Silva**, Frontend Engineer (React + TypeScript).
 
-🔗 **Live:** https://klingermatheus.github.io/portfolio
+**Live:** https://klingermatheus.github.io/
 
-## Highlights
+## What it is
 
-- Hero with 3D photo tilt, cursor spotlight and a typewriter role line
-- Animated stat counters and scroll-reveal sections
-- Project cards with cursor-following glow
-- "How I work" manifesto, technical stack, experience timeline
-- Fully responsive · dark mode · accessible
+A static page in two languages (English at the root, Portuguese at `/pt/`): plain HTML and CSS, no JavaScript, no build step. Light and dark themes follow the visitor's system setting.
 
-## Tech
+## Structure
 
-`React` · `TypeScript` · `HTML/CSS` · `Web Animations API`
+- `site/` — everything that gets published (`index.html`, `pt/index.html`, `styles.css`, images, favicon, link-preview image, résumé PDFs). A text change must be made in both language files
+- `assets/klinger.png` — original portrait, source for the compressed versions in `site/assets/`
+- `.github/workflows/static.yml` — deploys `site/` to GitHub Pages on every push to `main`
 
 ## Run locally
 
-The site is a single self-contained file — just open it:
-
-```bash
-open index.html
-```
-
-## Deploy
-
-Host the `index.html` anywhere static (GitHub Pages, Vercel, Netlify).
-For GitHub Pages: **Settings → Pages → Branch: `main`**.
+Open `site/index.html` in a browser.
 
 ## Contact
 
 - **Email:** kger.matheus.dev@gmail.com
 - **LinkedIn:** [in/klinger-matheus](https://www.linkedin.com/in/klinger-matheus)
 - **GitHub:** [@klingermatheus](https://github.com/klingermatheus)
-
----
-
-<sub>Open to remote · contract · full-time · part-time · freelance — async with US & EU teams.</sub>
